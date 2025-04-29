@@ -2,5 +2,21 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./apps/my-new-app-e2e"
+    },
+    {
+      "path": "./apps/my-new-app"
+    },
+    {
+      "path": "./apps/my-nest-app-e2e"
+    },
+    {
+      "path": "./apps/my-nest-app"
+    },
+    {
+      "path": "./libs/my-new-lib"
+    }
+  ]
 }
