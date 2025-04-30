@@ -1,7 +1,31 @@
 export async function GET(request: Request) {
   try {
-    console.log(request);
-    return new Response('das');
+    const response = await fetch('http://localhost:9040/api');
+    const result = await response.json();
+    console.log(result);
+    return Response.json(result);
+  } catch (error) {
+    return Response.json(error);
+  }
+}
+
+export async function POST(request: Request) {
+  try {
+    const response = await fetch('http://localhost:9040/api');
+    const result = await response.json();
+    console.log(result);
+    return Response.json(result);
+  } catch (error) {
+    return Response.json(error);
+  }
+}
+
+export async function PATCH(request: Request) {
+  try {
+    const response = await fetch('http://localhost:9040/api');
+    const result = await response.json();
+    console.log(result);
+    return Response.json(result);
   } catch (error) {
     return Response.json(error);
   }

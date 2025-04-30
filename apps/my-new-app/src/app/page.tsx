@@ -1,16 +1,13 @@
-import { MyNewLib } from '@org/my-new-lib';
+import { Components } from '@org/components';
+import TestComponent from '@/components/test';
 export default function Index() {
-  /*
-   * Replace the elements below with your own.
-   *
-   * Note: The corresponding styles are in the ./index.tailwind file.
-   */
   return (
     <div>
       <div className="wrapper">
         <div className="container">
           <div id="welcome">
-            <MyNewLib />
+            <TestComponent />
+            <Components />
             <h1>
               <span> Hello there, </span>
               Welcome @org/my-new-app 👋

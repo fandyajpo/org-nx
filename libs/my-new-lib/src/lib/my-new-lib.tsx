@@ -1,9 +1,3 @@
-export function MyNewLib() {
-  return (
-    <div>
-      <h1>Welcome to MyNewLib!</h1>
-    </div>
-  );
-}
-
-export default MyNewLib;
+export const exampleFunction = () => {
+  return console.log('Hai');
+};
