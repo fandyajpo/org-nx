@@ -121,6 +121,9 @@
       "dependsOn": ["^build"]
     }
   },
+  "implicitDependencies": {
+    "@org/my-new-app-e2e": ["@org/my-new-app"]
+  },
   "generators": {
     "@nx/next": {
       "application": {
