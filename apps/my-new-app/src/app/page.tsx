@@ -7,6 +7,7 @@ export default function Index() {
         <div className="container">
           <div id="welcome">
             <TestComponent />
+            Hai
             <Components />
             <h1>
               <span> Hello there, </span>
