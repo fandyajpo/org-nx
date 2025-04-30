@@ -2,7 +2,6 @@
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "@vercel/remote-nx",
       "options": {
         "cacheDirectory": "/tmp/nx-cache"
       }
