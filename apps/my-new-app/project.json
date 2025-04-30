@@ -3,7 +3,7 @@
     "build": {
       "executor": "@nx/next:build",
       "options": {
-        "outputPath": "dist/apps/my-new-app"
+        "outputPath": "dist/apps/my-new-app/.next"
       }
     }
   }
