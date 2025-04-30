@@ -1,7 +1,10 @@
 {
   "targets": {
     "build": {
-      "executor": "@nx/next:build"
+      "executor": "@nx/next:build",
+      "options": {
+        "outputPath": "dist/apps/my-new-app"
+      }
     }
   }
 }
